@@ -1,0 +1,348 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #1B1F3B;
+    width: 100%;
+    font-weight: 100;
+}
+nav img {
+    width: 50px;
+    align-self: center;
+    padding-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    columns: 4;
+    align-self: center;
+}
+
+nav a {
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+}
+
+.btn {
+    background-color: #007FFF;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #1A333B;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+
+#fundo {
+    background-image: url(../img/mainbanner.png);
+    width: 100%;
+    height: 520px;
+    background-position: center;
+    background-size: cover;
+}
+
+main div#fundo{
+    color: white;
+    text-align: center;
+
+}
+
+div#fundo h1 {
+    font-size: 4em;
+    padding-top: 200px;
+}
+
+div#fundo p {
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+section#home .detalhes {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    list-style: none;
+    text-align: center;
+}
+
+section#home .fas {
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: #1B1F3B;
+}
+
+ul.detalhes h2 {
+    text-align: left;
+}
+ul.detalhes p {
+    margin-top: 5px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+section#planos {
+    text-align: center;
+    margin: 60px 0px;
+    color: #1B1F3B;
+}
+
+section#planos h2 {
+    font-size: 2em;
+}
+
+section#planos p {
+    font-size: 1.2em;
+}
+
+
+section#planos ul.planos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+    list-style-type: none;
+}
+
+.grade {
+    width: 250px;
+    padding-top: 0px;
+}
+
+section#planos .grade h2 {
+    background-color: #1B1F3B;
+    color: white;
+    font-size: 1.3em;
+    padding-bottom: 40px;
+    padding-top: 50px;
+    margin-top: 180px;
+
+}
+
+section#planos .grade p {
+    background-color: #D9D9D9;
+    padding: 10px 0px;
+    font-size: 1em;
+}
+
+section#planos #preco {
+    background-color: #007FFF;
+    border-radius: 50%;
+    width: 170px;
+    height: 130px;
+    text-align: center;
+    color: white;
+    margin: -240px auto 60px auto;
+    font-size: 1.2em;
+    line-height: 130px;
+}
+
+section#planos .grade a.btn {
+    display: block;
+    background-color: #007FFF;
+    border-radius: 5px;
+    width: 250px;
+    margin-top: 0px;
+    padding: 12px 0px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+    
+}
+
+section#planos #oferta #preco {
+    background-color: #DB222A;
+}
+
+section#planos #oferta a.btn {
+    background-color: #DB222A;
+}
+
+
+section#dominio {
+    background-color: #1B1F3B;
+    color: white;
+    width: 100%;
+    height: 400px;
+    padding: 100px 0px;
+    text-align: center;
+    margin: 40px 0px;
+    
+}
+
+section#dominio h2 {
+    font-size: 3em;
+}
+
+section#dominio p {
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+
+section#dominio input {
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 1.8em;
+    color: #1B1F3B;
+}
+
+section#dominio form a.btn {
+    width: 30%;
+}
+
+section#contato {
+    text-align: center;
+    margin-bottom: 100px;
+    color: #1B1F3B;
+}
+
+section#contato h2 {
+    font-size: 2.8em;
+}
+
+section#contato p {
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+
+section#contato form {
+    width: 820px;
+    margin: auto;
+}
+
+section#contato input {
+    width: 380px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #1B1F3B;
+    font-weight: bolder;
+    font-size: 1.2em;
+    border-color: #1B1F3B;
+}
+
+
+section#contato input#nome {
+    margin-right: 6px;
+}
+
+section#contato input#mensagem {
+    display: block;
+    margin: 0px;
+    padding-bottom: 100px;
+    width: 796px;
+}
+
+section#contato input.btn {
+    margin-top: 20px;
+    width: 300px;
+    color: white;
+}
+
+section#dominio a.btn {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    width: 350px;
+    margin: 5px auto;
+    border-color: #1B1F3B;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #1B1F3B;
+}
+
+
+@media (max-width: 1050px) {
+    nav a {
+        font-size: 1em !important;
+
+    }
+
+    div#fundo h1 {
+        font-size: 3em;
+    }
+
+    div#fundo p {
+        font-size: 1.5em;
+    }
+
+    section#home .detalhes {
+        width: 90%;
+    }
+
+    section#contato p {
+        font-size: 1em;
+    }
+
+    section#contato form {
+        width: 90%;
+    }
+
+    section#contato input {
+        width: 90%;
+        padding: 0px;
+        float: left;
+    }
+    
+    section#contato input#nome {
+        margin-right: 0px;
+    }
+    
+    section#contato input#mensagem {
+        display: block;
+        margin: 0px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 800px) {
+    nav a {
+        font-size: 0.8em;
+
+    }
+
+    .detalhes {
+        flex-wrap: wrap;
+    }
+
+    section#dominio form input {
+        font-size: 1.5em;
+    } 
+}
